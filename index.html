@@ -1,0 +1,15 @@
+<canvas id="myCanvas" style="width:1800px; height:1110px;"></canvas>
+
+<script src="https://unpkg.com/hydra-synth"></script>
+<script>
+
+  new window.Hydra({
+    canvas: document.getElementById("myCanvas"),
+    detectAudio: false
+  })
+ 
+ osc(15.47, 0.081, 1.835)
+  .kaleid(7)
+	.out(o0)
+
+</script>
